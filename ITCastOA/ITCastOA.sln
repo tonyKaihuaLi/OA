@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAModel", "OAModel\OAModel.csproj", "{B260D08A-BD70-4B4E-9B97-8D985E88F249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OACommon", "OACommon\OACommon.csproj", "{0F13A2BC-3343-46DB-AE16-4A479F3B5E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OADal", "OADal\OADal.csproj", "{5A885912-CA92-49C9-9B5D-22619A4F3D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAIDal", "OAIDal\OAIDal.csproj", "{5783C7E4-0E91-45EC-9CAD-7547FF8F7F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OADalFactory", "OADalFactory\OADalFactory.csproj", "{8DEAE939-4DC1-435F-A85E-76A62EAC2CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAIBll", "OAIBll\OAIBll.csproj", "{BBDCCED0-7B31-48DE-830F-D3193A3C6DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAWebApp", "OAWebApp\OAWebApp.csproj", "{D383330B-1E60-4B52-81A9-693A2A76BABC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B260D08A-BD70-4B4E-9B97-8D985E88F249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B260D08A-BD70-4B4E-9B97-8D985E88F249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B260D08A-BD70-4B4E-9B97-8D985E88F249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B260D08A-BD70-4B4E-9B97-8D985E88F249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F13A2BC-3343-46DB-AE16-4A479F3B5E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F13A2BC-3343-46DB-AE16-4A479F3B5E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F13A2BC-3343-46DB-AE16-4A479F3B5E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F13A2BC-3343-46DB-AE16-4A479F3B5E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A885912-CA92-49C9-9B5D-22619A4F3D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A885912-CA92-49C9-9B5D-22619A4F3D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A885912-CA92-49C9-9B5D-22619A4F3D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A885912-CA92-49C9-9B5D-22619A4F3D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5783C7E4-0E91-45EC-9CAD-7547FF8F7F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5783C7E4-0E91-45EC-9CAD-7547FF8F7F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5783C7E4-0E91-45EC-9CAD-7547FF8F7F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5783C7E4-0E91-45EC-9CAD-7547FF8F7F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DEAE939-4DC1-435F-A85E-76A62EAC2CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEAE939-4DC1-435F-A85E-76A62EAC2CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DEAE939-4DC1-435F-A85E-76A62EAC2CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DEAE939-4DC1-435F-A85E-76A62EAC2CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDCCED0-7B31-48DE-830F-D3193A3C6DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDCCED0-7B31-48DE-830F-D3193A3C6DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDCCED0-7B31-48DE-830F-D3193A3C6DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDCCED0-7B31-48DE-830F-D3193A3C6DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D383330B-1E60-4B52-81A9-693A2A76BABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D383330B-1E60-4B52-81A9-693A2A76BABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D383330B-1E60-4B52-81A9-693A2A76BABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D383330B-1E60-4B52-81A9-693A2A76BABC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
